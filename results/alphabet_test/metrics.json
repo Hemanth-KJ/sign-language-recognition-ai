@@ -1,0 +1,16 @@
+{
+    "total_images_found": 28,
+    "total_supported_images": 27,
+    "hands_detected": 18,
+    "correct_predictions": 1,
+    "incorrect_predictions": 17,
+    "no_hand_detected": 9,
+    "unreadable_images": 0,
+    "unsupported_images": 1,
+    "hand_detection_rate": 66.67,
+    "accuracy_on_detected_images": 5.56,
+    "overall_accuracy": 3.7,
+    "weighted_precision": 0.0111,
+    "weighted_recall": 0.0556,
+    "weighted_f1_score": 0.0185
+}

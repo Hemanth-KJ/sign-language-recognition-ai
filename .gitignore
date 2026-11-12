@@ -1,0 +1,32 @@
+# Node
+node_modules
+package-lock.json
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Env
+.env
+
+# Models
+models/*.h5
+models/*.npy
+
+# Datasets
+datasets/
+
+# Build
+dist/
+build/
+
+# Logs
+*.log
+
+# Vite
+.vite
+
+# OS
+.DS_Store
+Thumbs.db

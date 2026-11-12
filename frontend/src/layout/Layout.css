@@ -1,0 +1,29 @@
+.site-footer {
+  border-top: 1px solid var(--line);
+  padding: 28px max(22px, calc((100vw - 1240px) / 2));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  color: var(--muted);
+}
+.site-footer strong {
+  font: 800 1.25rem Manrope;
+  color: white;
+}
+.site-footer strong span {
+  color: var(--cyan);
+}
+.site-footer p {
+  font-size: 0.82rem;
+  margin: 5px 0 0;
+}
+.site-footer small {
+  font-size: 0.77rem;
+}
+@media (max-width: 650px) {
+  .site-footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}

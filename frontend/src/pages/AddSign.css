@@ -1,0 +1,133 @@
+.library-layout {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 20px;
+  align-items: start;
+}
+.library-list,
+.library-form {
+  padding: 25px;
+}
+.library-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+.library-head h2,
+.library-form h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.1rem;
+  margin: 0;
+}
+.library-head > span {
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+.library-search {
+  position: relative;
+  margin: 22px 0;
+}
+.library-search svg {
+  position: absolute;
+  top: 50%;
+  left: 13px;
+  transform: translateY(-50%);
+  color: var(--muted);
+}
+.library-search input {
+  padding-left: 43px;
+}
+.library-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 560px;
+  overflow: auto;
+}
+.library-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+  padding: 16px;
+  background: #0d192c;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+.library-item-mark {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  background: #2a3f6a;
+  color: #b7caff;
+  font-weight: 800;
+}
+.library-item h3 {
+  font-size: 0.94rem;
+  margin: 1px 0 6px;
+}
+.library-item p,
+.library-empty {
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.65;
+  margin: 0;
+}
+.library-empty {
+  padding: 20px 0;
+}
+.library-empty a {
+  color: var(--cyan);
+}
+.library-side {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.library-form {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.library-form h2 {
+  margin-bottom: 13px;
+}
+.library-form label {
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+.library-form textarea {
+  resize: vertical;
+  min-height: 115px;
+}
+.library-form .btn {
+  margin-top: 9px;
+}
+.library-tip {
+  display: flex;
+  gap: 12px;
+  padding: 20px;
+  color: var(--cyan);
+}
+.library-tip svg {
+  flex: none;
+}
+.library-tip p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.81rem;
+  line-height: 1.7;
+}
+.library-tip strong {
+  color: #e3edff;
+}
+@media (max-width: 850px) {
+  .library-layout {
+    grid-template-columns: 1fr;
+  }
+}
